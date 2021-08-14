@@ -1,7 +1,14 @@
-#move all the file to .sys_adm_test folder in Sys_Admin_App_Test repository
-
+#copy all the file to .sys_adm_test folder in Sys_Admin_App_Test repository
 cd c:/Users/kayfa/Desktop
-mv git_command.txt C:/Users/kayfa/Documents/GitHub/Sys_Admin_App_Test
+cp git_command.txt C:/Users/kayfa/Documents/GitHub/Sys_Admin_App_Test
+cp Linux\ IT\ Support\ Quiz\ Answer.txt C:/Users/kayfa/Documents/GitHub/Sys_Admin_App_Test
+cp workstatio_push.txt C:/Users/kayfa/Documents/GitHub/Sys_Admin_App_Test
+cp workstation.sls C:/Users/kayfa/Documents/GitHub/Sys_Admin_App_Test
+cp rogue_task_config_file.txt C:/Users/kayfa/Documents/GitHub/Sys_Admin_App_Test
+cp rogue_task_command.txt C:/Users/kayfa/Documents/GitHub/Sys_Admin_App_Test
+cp Home\ Network.txt C:/Users/kayfa/Documents/GitHub/Sys_Admin_App_Test
 
+cd C:/Users/kayfa/Documents/GitHub/Sys_Admin_App_Test
 git add .
-git commit -m "Add existing file"
+git commit -m "Sys Admin Test"
+git push origin main
