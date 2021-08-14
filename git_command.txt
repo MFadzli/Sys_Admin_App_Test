@@ -5,3 +5,4 @@ mv git_command.txt C:/Users/kayfa/Documents/GitHub/Sys_Admin_App_Test
 
 git add .
 git commit -m "Add existing file"
+git push origin main
