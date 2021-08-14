@@ -1,0 +1,133 @@
+Q1
+=====
+Application Logs, Event Logs, Service Logs, System Logs
+
+Q2
+=====
+backtrace or valgrind
+
+Q3
+=====
+1.enable core files: $ ulimit -c unlimited
+2.reproduce the crash: $ ./yourapp
+3.debug crash with gdb
+
+Q4
+=====
+backtrace -30 or bt -30
+
+Q5
+=====
+1. check if the website is accessable by switch to different browser or using private session. 
+2. if accessable, user should clear browser cache/cookies(step are different between browsers). if still persists, user might needs to restore broswer to default settings(step are different between browsers) or removing any plugin/extension that might blocking the access.
+
+step to clear cache/history.
+a. google chrome - https://support.google.com/accounts/answer/32050?hl=en&co=GENIE.Platform%3DDesktop
+b. firefox - ttps://support.mozilla.org/en-US/kb/how-clear-firefox-cache
+c. internet explorer - https://support.microsoft.com/en-us/windows/view-and-delete-your-browsing-history-in-internet-explorer-098ffe52-5ac9-a449-c296-c735c32c8678
+
+step to reset browser settings.
+a. google chrome - https://support.google.com/chrome/answer/3296214?hl=en
+b. firefox - https://support.mozilla.org/en-US/kb/refresh-firefox-reset-add-ons-and-settings
+c. internet explorer - https://support.microsoft.com/en-us/windows/change-or-reset-internet-explorer-settings-2d4bac50-5762-91c5-a057-a922533f77d5
+
+Q6
+=====
+check with my supervisor for permission
+
+Q7
+=====
+Use tmux command.
+1. ssh into the remote machine
+2. start tmux by typing tmux into the shell
+3. start the process you want inside the started tmux session
+4. leave/detach the tmux session by typing Ctrl+b and then d. From here can logoff laptop.
+5. When come back again and want to check the status of the process, use tmux attach to attach to your tmux session.
+
+Q8
+=====
+use Semicolon (;) 
+
+Q9
+=====
+ls -a Drake/ #list out all the file
+
+Q10
+=====
+cd /Oven; mv Pretzel.txt /Plate 
+
+Q11
+=====
+mv Wheat.txt Wheat\ Flour.txt
+
+Q12
+=====
+tar -xf newapplicationfileanme.tar.gz -C /opt
+
+Q13
+=====
+1. top Command to View Linux CPU Load
+2. mpstat Command to Display CPU Activity
+3. sar –u 5 Command to Show CPU Utilization
+4. iostat Command for Average Usage
+5. Nmon Monitoring Tool
+6. Graphical Utility Option
+
+Q14
+=====
+1. top command 
+2. atop command 
+3. htop command 
+4. pgrep command 
+5. pstree command
+5. ps -aux | less command
+
+Q15
+=====
+1. check if the website is accessable by switch to different browser or using private session. 
+2. if accessable, user should clear browser cache/cookies(step are different between browsers). if still persists, user might needs to restore broswer to default settings(step are different between browsers) or removing any plugin/extension that might blocking the access.
+
+step to clear cache/history.
+a. google chrome - https://support.google.com/accounts/answer/32050?hl=en&co=GENIE.Platform%3DDesktop
+b. firefox - ttps://support.mozilla.org/en-US/kb/how-clear-firefox-cache
+c. internet explorer - https://support.microsoft.com/en-us/windows/view-and-delete-your-browsing-history-in-internet-explorer-098ffe52-5ac9-a449-c296-c735c32c8678
+
+step to reset browser settings.
+a. google chrome - https://support.google.com/chrome/answer/3296214?hl=en
+b. firefox - https://support.mozilla.org/en-US/kb/refresh-firefox-reset-add-ons-and-settings
+c. internet explorer - https://support.microsoft.com/en-us/windows/change-or-reset-internet-explorer-settings-2d4bac50-5762-91c5-a057-a922533f77d5
+
+Q16
+=====
+sudo dpkg -i Zero-One version 3.1 build 2
+
+Q17
+=====
+use dig command
+1. sudo apt-get install dnsutils
+2. dig -v 
+3. dig 192.167.100.111 pcA.localdomain
+
+Q18
+=====
+1. sudo parted /dev/sdb 
+2. select /dev/sdb 
+3. mklabel gpt -y
+4. print 
+5. mkpart primary ext4 1MB 1855MB
+6. print 
+7. quit
+8. sudo mkdir -p /backup_disk
+9. sudo mount -t auto /dev/sbd1 /backup_disk
+10. df hT
+
+Q19
+=====
+1. use CCleaner.
+2. run anti-virus or malware software
+3. remove unnecessary process/ remove unnecessary startup program. 
+4. upgrade ram/install ssd if possible
+
+Q20
+=====
+using Group Policy

@@ -1,0 +1,7 @@
+#move all the file to .sys_adm_test folder in Sys_Admin_App_Test repository
+
+cd c:/Users/kayfa/Desktop
+mv git_command.txt C:/Users/kayfa/Documents/GitHub/Sys_Admin_App_Test
+
+git add .
+git commit -m "Add existing file"
