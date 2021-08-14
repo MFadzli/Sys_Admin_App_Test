@@ -1,3 +1,3 @@
-No, i do not have servers or networks at home because I am not a System Administrator. In my current work, i do not required to use or involving in multiple system.
+No, i do not have servers or networks at home because I am not a System Administrator. In my current work, i do not directly involved or use related operating system.
 However, i do have one in my previous job which i been using it for training sessions. By using Hyper-v, i install centOS as a base to install in house application that been using by client.
 After changing job, i removed it because of it required some space and memory which i do not use.
